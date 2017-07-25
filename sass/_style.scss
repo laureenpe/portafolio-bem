@@ -12,10 +12,9 @@
 }
 
 .portfolio-navigation-row .mdl-navigation__link {
-  -webkit-flex: 1;
-      -ms-flex: 1;
           flex: 1;
   line-height: 42px;
+  border-radius: 20px;
 }
 
 
@@ -88,3 +87,37 @@ background-color: $blue-style;
 .mdl-layout__grid{
 padding-top: 30px;
 }
+
+/*Social media*/
+.social-media{
+    font-size: 30px; 
+    display: flex;
+
+    .social-media-facebook{
+    color: #4260a1; 
+    padding-right: 20px;
+  
+    }
+    .social-media-twitter{
+        color: #37b7f3;
+        padding-right: 20px;
+    }
+    .social-media-google{
+        color: #c14639;
+        padding-right: 20px;
+    }
+    .social-media-pinterest{
+        color: #ff512b;
+        padding-right: 20px;
+    }
+    .social-media-stumbleupon{
+        color: #ff512b;
+        padding-right: 20px;
+    }
+    .social-media-bem{
+        color: #f65a91;
+        padding-right: 20px;
+    }
+
+}
+
