@@ -36,3 +36,55 @@
     background-color: #203748;
 
 }
+
+/*SECTION BOX*/
+.content-grid {
+  max-width: 960px;
+}
+
+.content-grid--text{
+		width:300px;
+		height:300px;
+		border-radius: 50%;
+		margin-top: 40px;
+}
+
+.section__ball-btn{
+        background-color:gray;
+	    height:300px;
+        border-radius: 50%;
+}
+
+/*Button*/
+.mdl-button--primary.mdl-button--primary{
+    color: white;
+    border-radius: 40px;
+    background-color: $green-button;
+    width: 250px;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+/*Cards*/
+.mdl-card__supporting-text{
+    h2{
+    color: $green-button;
+    }
+    
+    h3,p{
+    color: white;
+    }
+
+}
+
+.mdl-card{
+background-color: $blue-style;
+}
+.mdl-card_text{
+    color: $blue-style;
+    margin-left: 37%;
+    margin-top: 40%;
+    }
+.mdl-layout__grid{
+padding-top: 30px;
+}
